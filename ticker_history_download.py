@@ -11,6 +11,8 @@ argParser.add_argument("-e", "--events", help="events")
 argParser.add_argument("-a", "--adjusted", help="includeAdjustedClose")
 argParser.add_argument("-d", "--download", help="download folder location", default=None)
 
+print("hi")
+
 args = argParser.parse_args()
 print(args,'args')
 
